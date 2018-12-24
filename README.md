@@ -1,26 +1,18 @@
 # MyReads Project
 
-A starter template for the final assessment project for Udacity's React Fundamentals course was provided. The goal of this template is to save time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. I added interactivity to the app by refactoring the static code in this template.
+This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
 
-## How to View The App
+## Viewing the App
+* Get the starter code
+https://github.com/udacity/reactnd-project-myreads-starter
 
-To view the website:
+* install all project dependencies with `npm install`
+* start the development server with `npm start`
+* Create new JS files for each component and use import/require statements to include them where they are needed
 
-* Install all project dependencies with `npm install`
-* Start the development server with `npm start`
 
-## How I Created The App
 
-* installed all project dependencies with `npm install`
-* started the development server with `npm start`
-* imported a react browser router
-* wrapped the main component (App.js) around the browser router
-* organized the project by creating the following folders Components>Page
- - Within the Pages Folder, components were created to mount some page components to certain routes
-* abstracted repetitive code to their own componets and linked them togethe rusing link form react router
-* pulled books to be placed in the book component from the backend api
-
-## What I Was Provide With
+## What You're Getting
 ```bash
 ├── CONTRIBUTING.md
 ├── README.md - This file.
@@ -41,12 +33,6 @@ To view the website:
     ├── index.css # Global styles. You probably won't need to change anything here.
     └── index.js # You should not need to modify this file. It is used for DOM rendering only.
 ```
-
-## Reference
-* Slack Community
-* [Webinar: MyReads (P6 LONG) Sept-22 walk-thru with @RyanWaite.ProjectCoach [FEND, MWS] - YouTube ]
-(https://www.youtube.com/watch?v=acJHkd6K5kI&=&feature=youtu.be)
-
 
 Remember that good React design practice is to create new JS files for each component and use import/require statements to include them where they are needed.
 
@@ -102,6 +88,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Contributing
 
-This project was cloned from Udacity and is the starter code for _all_ Udacity students. Therefore, pull requests will most likely not be accepted,
+This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Tools Used and Attributions:
+* kenJournal WalkThrough
+https://youtu.be/_VFkGk8pJn8
+* Slack Community
+* [Webinar: MyReads (P6 LONG) Sept-22 walk-thru with @RyanWaite.ProjectCoach [FEND, MWS] - YouTube ]
+(https://www.youtube.com/watch?v=acJHkd6K5kI&=&feature=youtu.be)
+
