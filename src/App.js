@@ -1,9 +1,7 @@
 import React from 'react'
 import './App.css'
-
 //Import route in the root 
 import { Route} from 'react-router-dom'
-
 //Import components from the Components folder
 import MainPage from './Components/Pages/MainPage';
 import SearchPage from './Components/Pages/SearchPage';
