@@ -94,6 +94,8 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Tools Used and Attributions:
 * https://reactjs.org/docs/introducing-jsx.html
+* https://overreacted.io/why-do-we-write-super-props/
+* https://stackoverflow.com/questions/30571875/whats-the-difference-between-super-and-superprops-in-react-when-using-e
 * https://reacttraining.com/react-router/
 * kenJournal WalkThrough
   https://youtu.be/_VFkGk8pJn8
