@@ -94,8 +94,9 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Tools Used and Attributions:
 * kenJournal WalkThrough
-https://youtu.be/_VFkGk8pJn8
+  https://youtu.be/_VFkGk8pJn8
 * Slack Community
+* Study Jam 21/07 P7 - My Reads by Maeva Nap:https://www.youtube.com/watch?v=i6L2jLHV9j8
 * [Webinar: MyReads (P6 LONG) Sept-22 walk-thru with @RyanWaite.ProjectCoach [FEND, MWS] - YouTube ]
-(https://www.youtube.com/watch?v=acJHkd6K5kI&=&feature=youtu.be)
+  (https://www.youtube.com/watch?v=acJHkd6K5kI&=&feature=youtu.be)
 
