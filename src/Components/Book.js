@@ -6,7 +6,7 @@ class Book extends React.Component {
             <li>
             <div className="book">
                 <div className="book-top">
-                    <div className="book-cover" style={{ width: 130, height: 192, backgroundImage: `url("${(this.props.book.imageLinks && this.props.book.imageLinks.thumbnail) || "" }")` }}></div>
+                    <div className="book-cover" style={{ width: 128, height: 192, backgroundImage: `url("${(this.props.book.imageLinks && this.props.book.imageLinks.thumbnail) || "" }")` }}></div>
                     <div className="book-shelf-changer">
                         {/*Call for updateBook method*/}
                         <select value ={this.props.book.shelf || "None"} onChange={(event) => {this.props.updateBook(this.props.book, event.target.value) }}> {}
