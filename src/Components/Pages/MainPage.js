@@ -1,10 +1,13 @@
 import React from 'react';
+//import Link from library 'react-router-dom'
 import {Link} from 'react-router-dom';
+//import Shelf Component
 import Shelf from '../Shelf'; 
+//import BooksAPI
 import * as BooksAPI from '../../BooksAPI'
 
 class MainPage extends React.Component {
-    //Starting book state
+    //Set the initial book state
     constructor(props) {
         super(props);
         this.state = {
@@ -12,16 +15,16 @@ class MainPage extends React.Component {
         }
     }
 
-    //Setting up an ajax request to check for when a property of a book has been mounted
+    //Setting request into componentDidMOunt to check for book loading
     componentDidMount(){
         BooksAPI.getAll()
-        .then(resp => {
-            console.log(resp);  //To ensure that when a new prop gets mounted, it's printed to the console
-            this.setState({books: resp});
+        .then(allBooks => {
+            console.log(allBooks);  //To check that when a new prop gets mounted, it's printed to the console
+            this.setState({books: allBooks});
         });
     }
 
-    // Updates the state of a book by updating the book and shelf properties
+    // Update the state of a book by updating the book and shelf properties
     updateBook= (book, shelf)=> {
         BooksAPI.update(book, shelf)
         .then( resp => {

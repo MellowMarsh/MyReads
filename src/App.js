@@ -1,14 +1,15 @@
 import React from 'react'
 import './App.css'
-//Import route in the root 
+//Import Router from library
 import { Route} from 'react-router-dom'
-//Import components from the Components folder
+//Import MainPage from the Components folder
 import MainPage from './Components/Pages/MainPage';
+//importing SearchPage Components folder
 import SearchPage from './Components/Pages/SearchPage';
 
 class BooksApp extends React.Component {
    render() {
-    // Creating components to be mounted 
+    // Routing set up 
     return (
       <div>
         <Route exact path= "/" component= { MainPage } />

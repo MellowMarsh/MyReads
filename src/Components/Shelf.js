@@ -1,15 +1,16 @@
 import React from 'react';
+//importing the Book component
 import Book from './Book'; 
 
-
-    //When a new prop gets mounted, it's printed to the console
+//When a new prop gets mounted, it's printed to the console
 class Shelf extends React.Component {
     componentDidMount() {
         console.log(this);
     }
 
     render() {
-        return (  //Instead of using the hardcoded bookshelf-title, we will use a jsx expression as the 
+        return (  
+            //Instead of using the hardcoded bookshelf-title, we will use a jsx expression as the 
             //value in the <h2> tag for each shelf in order to read the props that were given to it
             <div> 
                 <div className="bookshelf">
