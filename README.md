@@ -93,6 +93,7 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Tools Used and Attributions:
+* https://reacttraining.com/react-router/
 * kenJournal WalkThrough
   https://youtu.be/_VFkGk8pJn8
 * Slack Community
