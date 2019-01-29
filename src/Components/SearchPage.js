@@ -28,7 +28,7 @@ class Searchpage extends React.Component {
    executeUpdate = (query) => {
       this.setState({query: query}, this.submitSearch);
    }
-   //Instructed by Ryan Waite in walkthrough
+
    submitSearch() {
      //handler for an empty or undefined string
       if(this.state.query === '' || this.state.query === undefined) {
